@@ -1,5 +1,9 @@
 # SerialTester
-Simple tool for issuing commands to / from Arduino projects (or anything that makes use of serial communication).
+SerialTester is a simple tool for sending commands to any connected serial device attached to your computer. This was initally created for issuing commands to my Arduino from my home server. I have packaged it up for anyone to make use of should the need arise.
+
+P.S. I welcome all pull requests to drive this project forward.
+
+![SerialTest UI](images/v1-0-0/1.0.0.001.png "SerialTester UI")
 
 ## Example Arduino Sketch
 Below is an exmaple Arduino sketch designed to work with `Serial Tester` to make sure that everything is working as expected.
