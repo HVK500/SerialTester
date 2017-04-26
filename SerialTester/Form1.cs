@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO.Ports;
 using System.Windows.Forms;
 
-namespace SerialTest
+namespace SerialTester
 {
   public partial class Form1 : Form
   {

@@ -1,4 +1,4 @@
-﻿namespace SerialTest
+﻿namespace SerialTester
 {
   partial class Form1
   {
@@ -44,7 +44,7 @@
       // 
       this.btnOn.Enabled = false;
       this.btnOn.Location = new System.Drawing.Point(12, 112);
-      this.btnOn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.btnOn.Margin = new System.Windows.Forms.Padding(4);
       this.btnOn.Name = "btnOn";
       this.btnOn.Size = new System.Drawing.Size(173, 28);
       this.btnOn.TabIndex = 0;
@@ -56,7 +56,7 @@
       // 
       this.btnOff.Enabled = false;
       this.btnOff.Location = new System.Drawing.Point(187, 112);
-      this.btnOff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.btnOff.Margin = new System.Windows.Forms.Padding(4);
       this.btnOff.Name = "btnOff";
       this.btnOff.Size = new System.Drawing.Size(173, 28);
       this.btnOff.TabIndex = 1;
@@ -69,7 +69,7 @@
       this.cbSerialPorts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.cbSerialPorts.FormattingEnabled = true;
       this.cbSerialPorts.Location = new System.Drawing.Point(16, 15);
-      this.cbSerialPorts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.cbSerialPorts.Margin = new System.Windows.Forms.Padding(4);
       this.cbSerialPorts.Name = "cbSerialPorts";
       this.cbSerialPorts.Size = new System.Drawing.Size(253, 24);
       this.cbSerialPorts.TabIndex = 2;
@@ -77,7 +77,7 @@
       // btnSelectPort
       // 
       this.btnSelectPort.Location = new System.Drawing.Point(279, 12);
-      this.btnSelectPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.btnSelectPort.Margin = new System.Windows.Forms.Padding(4);
       this.btnSelectPort.Name = "btnSelectPort";
       this.btnSelectPort.Size = new System.Drawing.Size(84, 28);
       this.btnSelectPort.TabIndex = 3;
@@ -91,7 +91,7 @@
       this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.btnReset.ForeColor = System.Drawing.Color.DarkRed;
       this.btnReset.Location = new System.Drawing.Point(13, 148);
-      this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.btnReset.Margin = new System.Windows.Forms.Padding(4);
       this.btnReset.Name = "btnReset";
       this.btnReset.Size = new System.Drawing.Size(347, 43);
       this.btnReset.TabIndex = 4;
@@ -103,7 +103,7 @@
       // 
       this.cbBaudRate.FormattingEnabled = true;
       this.cbBaudRate.Location = new System.Drawing.Point(16, 48);
-      this.cbBaudRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.cbBaudRate.Margin = new System.Windows.Forms.Padding(4);
       this.cbBaudRate.Name = "cbBaudRate";
       this.cbBaudRate.Size = new System.Drawing.Size(345, 24);
       this.cbBaudRate.TabIndex = 5;
@@ -151,14 +151,14 @@
       this.Controls.Add(this.btnOff);
       this.Controls.Add(this.btnOn);
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-      this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.Margin = new System.Windows.Forms.Padding(4);
       this.MaximizeBox = false;
       this.MaximumSize = new System.Drawing.Size(397, 457);
       this.MinimizeBox = false;
       this.MinimumSize = new System.Drawing.Size(397, 457);
       this.Name = "Form1";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "Serial Test";
+      this.Text = "Serial Tester";
       this.ResumeLayout(false);
       this.PerformLayout();
 
